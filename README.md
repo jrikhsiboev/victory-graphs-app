@@ -6,7 +6,7 @@ There are so many graphing modules out there that it gets pretty overwhelming re
 
 Chart.js is amazing. There are few minor details that could be better. One of them is sizing and alignment of the graphs. For example, if you define width for your graphs (lets say 1000px), then the container of the graphs will indeed be 1300px. But the graph content will shift according to your "y-axis" values. In case of two graphs stacked one after another, first one with y values ranging from 1-10, and the second ranging from 10000 - 100000, then the second graph will be shifted to the right a bit. I can easily fix it via hardcoding it, but doing it dynamically with constantly changing y-axis values gets messy. This is just one of the examples, but you can see where I am going...
 
-Anyway... I still think majority of the graphing modules are quite impressive and they serve general purpose just fine, including Chart.js. 
+Anyway... I still think majority of the graphing modules are quite impressive, including Chart.js, and they serve general purpose just fine.
 
 From my research and multiple comparisons with other graphing modules, Victory.js seems to be right in the middle. Not the most fancy looking one, but highly customizable with a pretty good documentation. On top of that it seems library is being maintained on a regular basis.
 
